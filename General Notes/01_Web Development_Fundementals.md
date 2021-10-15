@@ -4,22 +4,20 @@
 
 #### HTML
 - HyperText Markup Language
-- Used to structure and define webpage content 
+- Used to give structure and meaning to and define webpage content 
     - text, images, audio, video, forms, etc
 - First language of the web 
     - most basic building block of a web page
 
 #### CSS
 - Cascading Style Sheets
-    - Changes apply top-down, later changes **overwrite** previous changes
-- Create webpage appearance, styles & positioning 
-    - fonts, colors, margins, animations, etc
+- Create and change webpage appearance, styles & positioning 
+    - fonts, colors, margins, animations, art, backgrounds, div styles, etc
+- Changes apply top-down, later changes **overwrite** previous changes
 
 #### JS
 - JavaScript
-    - Programming language 
-    - able to make computations and transform data according to logical 
-instructions
+    - Programming language: able to make computations and transform data according to logical instructions
 - Can change the HTML and CSS of a webpage and make it dynamic: change it in response to conditions in the code
 - Most powerful & complex of the three core technologies
 
@@ -28,14 +26,25 @@ instructions
 ### Web Design vs. Web Development
 #### Web Design
 - Graphic design, aesthetic concerns such as fonts, colors, layout
-- Web designers create the design and hands off to web developer to translate it into code
+- Web designers create the design and hand off the design to a web developer to translate it into code
 
-#### Web Development is NOT Web Design
+**Web Development is NOT Web Design**
 
 ---
 
 ### Web Development
+
+#### Standalone and Server Setups:
+#### Standalone 
+    In a Stand-alone program, a server isnot needed. If you want to open calculator, or Solitare, it's just there on your PC. 
+
+    <img src="../images/standalone_PC.png">
+
 ### Front End vs. Back End vs. Full Stack
+
+
+
+
 #### Front End
 - Code downloaded to & run on client-side computer 
     - CSS, HTML, JavaScript
