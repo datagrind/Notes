@@ -38,10 +38,20 @@
 #### Standalone 
     In a Stand-alone program, a server is not needed. If you want to open calculator, or Solitare, it's just there on your PC. 
 <img src="../images/standalone_PC.png">
+    You can think of this like a RPG or FPS game. Aside from DLC or updates it's a self-contained product.
+
+#### Server-Supported:
+    To access the live version of a web site, your web browser needs to contact a web server over an internet connection. 
+    A web server is a computer connected to the internet and configured to respond to requests from a web client (such as a web browser) from a client computer.
+    The browser requests a web page from the server, and the server sends back the code the browser needs to display the web site.
+<img src="../images/server-client.png">
+    The client and server will continue to communicate data back and forth to each other over the internet. 
 
 ---
 
 ### Front End vs. Back End vs. Full Stack
+     
+     In server-supported web pages and applications, different "Ends"  
 
 
 
