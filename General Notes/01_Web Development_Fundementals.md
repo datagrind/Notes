@@ -37,11 +37,9 @@
 #### Standalone and Server Setups:
 #### Standalone 
     In a Stand-alone program, a server is not needed. If you want to open calculator, or Solitare, it's just there on your PC. 
-
-Example: 
-
 <img src="../images/standalone_PC.png">
 
+---
 
 ### Front End vs. Back End vs. Full Stack
 
