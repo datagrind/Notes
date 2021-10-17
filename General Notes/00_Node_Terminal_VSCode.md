@@ -1,12 +1,18 @@
 # Node and VSCode Terminal
 ## Terminal
 
-Open VSCode:
+### Open VSCode:
 ```
 code .          // opens VSCode in WSL into Ubuntu
 ```
 
-List files in the current directory:
+GUI version: 
+
+<img src="..images/GUI_VsCode_WSL.png>
+
+<br>
+
+### List files in the current directory:
 ```
 ls              // show every file and folder in the directory
 //  Flags
@@ -15,7 +21,9 @@ ls              // show every file and folder in the directory
 ls -a           // shows hidden files as well
 ```
 
-Change directiories
+<br>
+
+### Change directiories
 ```
 cd              // change dirctory eg cd C:\
 cd C:/
@@ -24,7 +32,9 @@ cd ..           // go up one directory
 cd ../..        // go up two directories etc.
 ```
 
-Make a new directory
+<br>
+
+### Make a new directory
 ```mkdir           // make a new directory in the current directory you are in
 mkdir test_directory
                 // make new directory test_directory in the current directory
@@ -32,24 +42,33 @@ mkdir test_directory2/nested_directory
                 // make a new directory in the current directory you are in
 ```
 
-Make a new file
+<br>
+
+### Make a new file
 ```
 touch           // make a new file inside your current directory
 touch test.js   // make new file test.js inside your current directory
 ```
 
-Show where you currently are
+<br>
+
+### Show where you currently are
 ```
 pwd             // show the current directory you are in
+                // stands for "present working directory"
 ```
 
-Prints out a file
+<br>
+
+### Print out a file
 ```
 cat             // print out a file
 cat test.js     // print out the contents of test.js
 ```
-Remove a file or directory
 
+<br>
+
+### Remove a file or directory
 **DESTRUCTIVE. BE CAREFUL. THERE AIN'T NO UNDO HERE**
 ```
 rm              // removes a file / directory
