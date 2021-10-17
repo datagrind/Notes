@@ -1,5 +1,5 @@
-## Strings, Indexing, and Functions
-### Strings
+# Strings, Indexing, and Functions
+## Strings
 What are Strings?
   - strings represent literal text
   - a string is a sequence of characters surrounded by quotation marks " " or ' '
@@ -16,14 +16,14 @@ Examples:
 "... ";
 ```
 
-##### Escape characters with backslash \
+#### Escape characters with backslash \
 ```js
 "He said, \"what's up?\"";
 ```
 - here, "What's up?" is counted as a string WITH the double quotes. Using \ allows the double quotes (or any symbol escaped) to become a character in a string
 
 
-##### Why use different quotes?
+#### Why use different quotes?
 ```js
 'Shakespeare wrote, "To be or not to be"';
 // for putting quotes or dialouge in strings
@@ -36,10 +36,10 @@ Examples:
 'That's a bad string';
 ```
 
----
+<br>
 
-#### Counting String Length
-##### ```.length``` will give you the number of characters in a string:
+### Counting String Length
+#### ```.length``` will give you the number of characters in a string:
 ```js
 let ramen = "ramen"
 console.log("ramen".length);        // 5
@@ -49,9 +49,9 @@ console.log("".length);             // 0
 // an empty string returns 0 for length
 ```
 
----
+<br>
 
-#### Indexing a String
+### Indexing a String
 - Indexes start at 0.
 - The index will always be 1 less than the ```.length```
 ```js
@@ -71,9 +71,9 @@ console.log("bootcamp"[-3]);        // undefined
 //  if an index number is out of scope (-3, 41 for cat, etc) the REPL returns undefined
 ```
 
----
+<br>
 
-#### Fun with ```.length``` and ```.indexOf```
+### Fun with ```.length``` and ```.indexOf```
 ```js
 console.log("h4xx0r"["h4xx0r".length])
 ```
@@ -85,9 +85,9 @@ console.log("h4xx0r"["h4xx0r".length - 1])
 
 - here, this will always find the last letter of the string (because the index is always one less than the character count / length)
 
----
+<br>
 
-#### Finding the Indexed Letter
+### Finding the Indexed Letter
 - ```.indexOf``` starts at a beginning of a string checking for characters
 - once it finds the character it's looking for it returns and stops executing
 ```js
@@ -102,9 +102,9 @@ console.log("baaaa".indexOf("a"));  // 1
 // the indexOf retured will be the first occurrence
 ```
 
----
+<br>
 
-#### Finding the Indexed Character Snippet
+### Finding the Indexed Character Snippet
 - ```.indexOf``` will return the inxex at the START of the snippet
 ```js
 console.log("door hinge".indexOf("oor"));   // 1
@@ -113,9 +113,9 @@ console.log("door hinge".indexOf("hint"));  // -1
 // if the snippet does not exist, -1 will return
 ```
 
----
+<br>
 
-#### Concatenating Strings
+### Concatenating Strings
 - Concatenation is joining two strings together
 ```js
 console.log("hello" + "world");             // 'helloworld'
@@ -126,16 +126,16 @@ let str2 = "world"
 console.log((str1 + str2).indexOf("worl"))  // 6
 ```
 
----
+<br>
 
-### Functions
+## Functions
 - Functions are pieces of code written once and called as many times as needed
 - Functions require 3 things:
   - Name of Function
   - A list of parameters for the function, enclosed in parentheses ()
   - The code to execute when the function runs, enclosed in curly braces {}
 
-#### Function Definition
+### Function Definition
 ```js
 function myFunction(parameter1,parameter2){   // ? (the parameter(s) of the function)
     // ? some code to execute goes here
@@ -145,10 +145,10 @@ function myFunction(parameter1,parameter2){   // ? (the parameter(s) of the func
 myFunction(argument1,argument2)           // ? the arguments passed to the function
 ```
 
----
+<br>
 
-##### The following function does not use real numbers.
-##### Instead, it uses parameters. 
+#### The following function does not use real numbers.
+#### Instead, it uses parameters. 
 ```js
 function average(number1, number2) {
   // On line 158 these arguments are "10,16"
@@ -162,9 +162,9 @@ function average(number1, number2) {
 - when defining a function with parameters, you are declaring those parameters as usable variables within that function.
 - ```number1``` and ```number2``` are now variables
 
----
+<br>
 
-#### Sometimes functions do not have included parameters
+### Sometimes functions do not have included parameters
 ```js
 function testMe(){
   // some code to execute
@@ -185,9 +185,9 @@ function callMe(catchyWord) {
 callMe("Maybe?");                // Maybe?
 ```
 
----
+<br>
 
-#### Sometimes funky things can happen:
+### Sometimes funky things can happen:
 ```js
 // functions return "undefined" by default
 function addTwo(num1, num2){
@@ -197,12 +197,12 @@ function addTwo(num1, num2){
 console.log(addTwo(1,2));        // undefined
 ```
 
-####  What happened?
+###  What happened?
 - The function needs to return the value
 - Right now if you dropped a debugger below num1 + num2, it would be evident that num1 + num2 is working correctly
 - However, without telling js to return the value or assign it to a variable it WILL NOT save the value of this equation
 
-#### When using return, keep in mind that nothing PAST return will execute
+### When using return, keep in mind that nothing PAST return will execute
 ```js
 function addTwo(num1, num2){
   return num1 + num2;            // ? return the value
@@ -221,10 +221,10 @@ function addTwo(num1, num2){
 console.log(addTwo(1,2));        // 3
 ```
 
----
+<br>
 
-### Conditionals
-#### If Statements
+## Conditionals
+### If Statements
 ```js
 function isItTrue(){
   if (true === true) {           // ? If true true-equals (===) true,
@@ -233,9 +233,9 @@ function isItTrue(){
 }
 ```
 
----
+<br>
 
-#### Else Statements
+### Else Statements
 ```js
 function isItACat(){
   let c = "cat"                       // ? let c represent cat
@@ -251,16 +251,16 @@ function isItACat(){
 }
 ```
 
----
+<br>
 
-### For Loops & While Loops
+## For Loops & While Loops
 - For and While loops allow code to be executed indefinitely as long as a condition is met
 
 - For loops are great when you know how many iterations you need (e.g. as many as it takes to get through a list)
 
 - While-loops are great when you have no idea when the iterations will need to stop \ when you want a specific condition to happen and the loop shouldn't stop until then (e.g. until the user finally enters valid input [input validation!] -- or until the user decides to close a menu, etc)
 
-#### While Loop
+### While Loop
 ```js
 function countUpWhile(){
 
@@ -280,9 +280,9 @@ countUpWhile();
 // this code will print counting up... 5x before quitting
 ```
 
----
+<br>
 
-#### For Loop
+### For Loop
 ```js
 function countUpFor(){
 
