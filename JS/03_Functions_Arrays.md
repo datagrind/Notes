@@ -116,13 +116,13 @@ console.log(arr)                          // ["a", "x", "c"];
 <br>
 
 ## Array Methods
-### Adding elements to an array:
+#### Adding elements to an array:
   - When adding array items, multiple items can be added:
 ```js
 dogs.push(el1, el2, el3)
 ```
 
-#### Array.unshift
+### Array.unshift
 - Add and element to the start of an array & return the new length
 ```js
 let cats = ["Whiskers", "Mr. Feets", "Snookums"]
@@ -132,7 +132,7 @@ console.log(cats.Length);                   // => 4
 ```
 
 
-#### Array.push
+### Array.push
 -  Add an element to the end of an array & return the new length
 ```js
 let animals = ["ant", "bear", "dog"]
@@ -142,12 +142,12 @@ console.log(animals.Length);                // => 4
 ```
 <br>
 
-### Removing elements from an array:
+#### Removing elements from an array:
 - When removing array items, only one item can be removed at at time:
 - ```dogs.pop();```
 - ```dogs.pop();``` etc.
 
-#### Array.shift
+### Array.shift
 -  Remove an element from the start of an array & return the removed element
 ```js
 let cats = ["Paprika", "Whiskers", "Garfield"]
@@ -157,7 +157,7 @@ console.log(firstCat);                      // => "Paprika"
 ```
 
 
-#### Array.pop
+### Array.pop
 -   Remove an element from the end of a new array & return the removed element
 ```js
 let dogs = ["fido", "rover"]
