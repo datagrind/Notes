@@ -3,7 +3,7 @@
 
  Examples:
 
-***Write a function that takes in an array of numbers and returns a new array that contains only the even numbers**
+***Write a function that takes in an array of numbers and returns a new array that contains only the even numbers***
 ```js
 // Helper Function:
 function isEven(num){                       // function isEven with parameter num
