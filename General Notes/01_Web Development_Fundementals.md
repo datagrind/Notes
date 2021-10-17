@@ -1,7 +1,5 @@
 # Web Development Fundementals
-
 ## HTML vs. CSS vs. JS
-
 ### HTML
 - HyperText Markup Language
 - Used to give structure and meaning to and define webpage content 
@@ -33,18 +31,15 @@
 <br>
 
 ## Web Development
-
 ### Standalone and Server Setups:
 ### Standalone 
-
 In a Stand-alone program, a server is not needed. If you want to open calculator, or Solitare, it's just there on your PC. 
 
 <img src="../images/standalone_PC.png">
 
 You can think of this like a RPG or FPS game. Aside from DLC or updates it's a self-contained product.
 
-### Server-Supported:
-
+### Server-Supported
 To access the live version of a web site, your web browser needs to contact a web server over an internet connection. 
 A web server is a computer connected to the internet and configured to respond to requests from a web client (such as a web browser) from a client computer.
 The browser requests a web page from the server, and the server sends back the code the browser needs to display the web site.
@@ -56,7 +51,6 @@ The client and server will continue to communicate data back and forth to each o
 <br>
 
 ## Front End vs. Back End vs. Full Stack
-     
 In server-supported web pages and applications, different "Ends" of the web page are the client-side browser and the server-side code. 
 
 HTML, CSS, and JS are all clinet-side, Front End technologies. 
@@ -76,9 +70,7 @@ The code that lives server-side is referred to as the Back End.
  - Both front and back end together
 
 
-
 <br>
-
 
 ## Libraries and Frameworks
 - Developers often package reuseable code as open-source libraries and frameworks
