@@ -1,8 +1,8 @@
-## Helper Functions
-#### Helper Functions are exactly what they sound like: Functions that are written outside the main code block that help to keep code readable and modular
+# Helper Functions
+- Helper Functions are exactly what they sound like: Functions that are written outside the main code block that help to keep code readable and modular
 
  Examples:
-#### Write a function that takes in an array of numbers and returns a new array that contains only the even numbers
+**Write a function that takes in an array of numbers and returns a new array that contains only the even numbers**
 ```js
 // Helper Function:
 function isEven(num){                       // function isEven with parameter num
@@ -22,7 +22,8 @@ function extractEvens(numbers){             // function extractEvens with parame
 
 console.log(extractEvens([3,5,4,7,8]));     // [4,8]
 ```
----
+<br>
+
 ```js
 //Helper Function:
    let isPrime = function(num){
@@ -51,9 +52,9 @@ let pickPrimes = function(nums) {
     return primes
 };
 ```
----
+<br>
 
-#### Write a function that intakes a string and removes all words that are less than 5 letters
+***Write a function that intakes a string and removes all words that are less than 5 letters***
 ```js
 // Helper Function:
 let isLessThanFive(word){
