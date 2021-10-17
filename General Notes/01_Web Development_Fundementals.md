@@ -30,7 +30,7 @@
 
 **Web Development is NOT Web Design**
 
-
+<br>
 
 ## Web Development
 
@@ -62,9 +62,6 @@ In server-supported web pages and applications, different "Ends" of the web page
 HTML, CSS, and JS are all clinet-side, Front End technologies. 
 The code that lives server-side is referred to as the Back End. 
 
-
-
-<br>
 
 
 ### Front End
