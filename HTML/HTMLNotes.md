@@ -12,9 +12,9 @@
 - All content in a HTML file is contained within elements. 
 
 Example:
-
-\<p>Lorem ipsum cat doughnut french press suspenders lolcat\</p>
-
+```html
+<p>Lorem ipsum cat doughnut french press suspenders lolcat</p>
+```
 
 ### Tags
 
