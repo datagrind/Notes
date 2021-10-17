@@ -85,15 +85,14 @@ console.log(newArray);                   // [1, "banana", true, "snake", [3, 6],
 <br>
 
 ### Mutable & Immutable Types
+#### Mutable types
 - Mutable objects can be changed
 - Immutable Objects cannot be changed
 - Mutable Types:
     - Arrays
     - Objects
 
-<br>
-
-#### Immutable Types:
+#### Immutable Types
   - Strings
   - Numbers / Integers
   - NaN
