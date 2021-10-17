@@ -8,7 +8,7 @@ code .          // opens VSCode in WSL into Ubuntu
 
 GUI version: 
 
-<img src="..images/GUI_VsCode_WSL.png>
+<img src="../images/GUI_VsCode_WSL.png>
 
 <br>
 
