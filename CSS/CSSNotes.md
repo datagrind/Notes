@@ -1,20 +1,22 @@
 
-## Basic CSS Notes
+# Basic CSS Notes
 
-   ##### a regular css selector referencing the HTML element type
+CSS is Cascading Style Sheets
+
+   #### a regular css selector referencing the HTML element type
 ```css   
     h2 {
        font-family:monospace;
    }
 ```
 
-   ##### a class css selector referencing the HTML class selector
+   #### a class css selector referencing the HTML class selector
 ```css  
     .redclass {
        color:red;
    }
 ```
-   ##### an id css selector referencing the HTML id selector
+   #### an id css selector referencing the HTML id selector
 ```css   
     #bigdiv {
         background-color:red;
@@ -43,8 +45,8 @@ h2 {
 }
 ```
 
-### The Box Model
-#### The default layout of CSS, or Normal Flow, uses the Box Model. 
+## The Box Model
+### The default layout of CSS, or Normal Flow, uses the Box Model. 
 -  Everything in CSS has a box around it
 
 - There are two types of boxes:
@@ -55,7 +57,7 @@ h2 {
     - inner display type 
     - outer display type
 
-#### Normal Flow
+### Normal Flow
 The default layout of a web page's box model is 
 
 
@@ -63,8 +65,8 @@ The default layout of a web page's box model is
 
 
 
-#### Box Types:
-#### Block Type
+### Box Types:
+### Block Type
 - If a box has an outer display type of block, then:
     - The box will break onto a new line.
     - The box will extend in the inline direction to fill the space available in its container. In most cases this means that the box will become as wide as its container, filling up 100% of the space available.
@@ -72,7 +74,7 @@ The default layout of a web page's box model is
     - Padding, margin and border will cause other elements to be pushed away from the box
     - HTML elements like \<h1> and \<p> use block as their outer display type by default.
 
-#### Inline Type
+### Inline Type
 - If a box has an outer display type of inline, then:
     - The box will not break onto a new line.
     - The width and height properties will not apply.
@@ -80,13 +82,13 @@ The default layout of a web page's box model is
     - Horizontal padding, margins, and borders will apply and will cause other inline boxes to move away from the box.
     - HTML elements like \<a>, \<span>, \<em>, and \<strong> use inline as their outer display type by default.
 
-#### Inline-Block Type
+### Inline-Block Type
 - If a box has an outer display type of inline-block, then:
     - The box will behave like the inline type
     - The box will have block-style padding and margin
 
 
-#### Parts of the Box:
+### Parts of the Box:
 - Making up a block box in CSS:
     - Content box: 
         - The area where your content is displayed, which can be sized using properties like width and height.
@@ -102,7 +104,7 @@ Example:
 <img src="../images/box-model.png">
 
 
-#### Border- Box:
+### Border- Box:
 - Regular box- sizing places the height and width on the /content/ inner portion, not the box edges. 
 - To apply content sizing to the box edge, use:
 ```css
@@ -125,7 +127,7 @@ Example:
 -- more information on this at [this blog](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice)
 
 
-#### Inner and Outer Types
+### Inner and Outer Types
 
 
 
