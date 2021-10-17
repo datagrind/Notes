@@ -115,8 +115,8 @@ console.log(arr)                          // ["a", "x", "c"];
 
 <br>
 
-## Array Methods
-#### Adding elements to an array:
+## Array Manipulation
+### Adding elements to an array:
   - When adding array items, multiple items can be added:
 ```js
 dogs.push(el1, el2, el3)
@@ -142,7 +142,7 @@ console.log(animals.Length);                // => 4
 ```
 <br>
 
-#### Removing elements from an array:
+### Removing elements from an array:
 - When removing array items, only one item can be removed at at time:
 - ```dogs.pop();```
 - ```dogs.pop();``` etc.
