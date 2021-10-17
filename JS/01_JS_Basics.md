@@ -162,8 +162,8 @@ console.log(bootcamp);      // 'App Academy'
 
 let birthYear = 2012;
 console.log(birthYear);     // 2012
-
 ```
+<br>
 
 ## Messing About with Variables
 #### Manipulating the value of a variable
