@@ -38,8 +38,7 @@ ls              // show every file and folder in the directory
                 // a dash - signifies a flag.
                 // Flags come after commands
 
--a 
-                // Flag to show hidden files
+-a              // Flag to show hidden files
 ls -a           // shows hidden files as well in the directory
 ```
 
