@@ -12,13 +12,6 @@
 
 **ALL the following commands assume you are running WSL and have your files on Ubuntu running as a VM on your PC.** ***This is not using windows Powershell.***  
 
-**YES**
-
-<img src="../images/WSL_Yes.JPG">
-
-**NO**
-
-<img src="../images/PowerShell_NO.JPG">
 
 ### Open Terminal in VSCode
 ```
