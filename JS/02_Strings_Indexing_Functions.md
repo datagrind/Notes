@@ -8,7 +8,7 @@ What are Strings?
 Examples:
 'potato';
 "New York";
-"azablan@appacademy.io";
+"azablan@gmail.com";
 "Follow the yellow brick road, please!";
 "365 days a year";
 "";
@@ -61,13 +61,13 @@ console.log("cat"[0]);              // 'c'
 console.log("cat"[2]);              // 't'
 
 // Examples:
-console.log("bootcamp"[0]);         // 'b'
-console.log("bootcamp"[1]);         // 'o'
-console.log("bootcamp"[2]);         // 'o'
-console.log("bootcamp"[3]);         // 't'
-console.log("bootcamp"[7]);         // 'p'
-console.log("bootcamp"[10]);        // undefined
-console.log("bootcamp"[-3]);        // undefined
+console.log("marigold"[0]);         // 'm'
+console.log("marigold"[1]);         // 'a'
+console.log("marigold"[2]);         // 'r'
+console.log("marigold"[3]);         // 'i'
+console.log("marigold"[7]);         // 'd'
+console.log("marigold"[10]);        // undefined
+console.log("marigold"[-3]);        // undefined
 //  if an index number is out of scope (-3, 41 for cat, etc) the REPL returns undefined
 ```
 
