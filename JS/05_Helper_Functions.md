@@ -1,8 +1,6 @@
 # Helper Functions
  **Helper Functions are exactly what they sound like: Functions that are written outside the main code block that help to keep code readable and modular**
 
- Examples:
-
 ***Write a function that takes in an array of numbers and returns a new array that contains only the even numbers***
 ```js
 // Helper Function:
