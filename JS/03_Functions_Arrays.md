@@ -118,7 +118,9 @@ console.log(arr)                          // ["a", "x", "c"];
 ## Manipulating Arrays
 - Adding elements to an array:
   - When adding array items, multiple items can be added:
-  - ```dogs.push(el1, el2, el3)```
+```js
+dogs.push(el1, el2, el3)
+```
   
 
 ### Array Methods
