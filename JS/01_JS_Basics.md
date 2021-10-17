@@ -1,5 +1,5 @@
-## Javascript Basics
-### Printing
+# Javascript Basics
+## Printing
 - use ```console.log();``` to print
 ```js
 "hello"                         // ? Prints nothing.
@@ -13,10 +13,10 @@ console.log("how are you?");    // how are you?
 - ```console.log();``` should be used for debugging purposes only.
 - Debugging means to locate and solve errors in your code. Console.log is mostly used as a way to locate the error(s) in your code.
 
----
+<br>
 
-### Operators & Operations
-##### Operators
+## Operators & Operations
+#### Operators
 ```js
 ()      // parenthesis - encloses an operation and makes it highest priority. 
         // If there are multiple operations enclosed in parenthesis, use Order of Operations to determine priority
@@ -28,10 +28,10 @@ console.log("how are you?");    // how are you?
 -       // subtraction
 ```
 
----  
+<br>  
 
-### Order of Operations
-##### In order of importance, order of operations is:
+## Order of Operations
+#### In order of importance, order of operations is:
 ```js
 () % / * + -
 
@@ -59,9 +59,9 @@ console.log(6 + 4 / (8 % 6) - 6)    // 2
 // 8 - 6 = 2
 // expression returns 2
 ```
----
+<br>
 
-### Boolean Operations
+## Boolean Operations
 ```js
 !       // (not)
 &&      // (and)
@@ -72,7 +72,7 @@ console.log(!false);    // true
 console.log(!!false);   // false
 ```
 
-##### the && operator only returns true if both sides are true
+#### the && operator only returns true if both sides are true
 ```js
 console.log(false && false);    // false
 console.log(false && true);     // false
@@ -80,7 +80,7 @@ console.log(true && false);     // false
 console.log(true && true);      // true
 ```
 
-##### the || operator only returns false if both sides are false
+#### the || operator only returns false if both sides are false
 ```js
 console.log(false || false);    // false
 console.log(false || true);     // true
@@ -88,18 +88,18 @@ console.log(true || false);     // true
 console.log(true || true);      // true
 ```
 
----
+<br>
 
-### De Morgan's Law
-##### De Morgan's Law distributes bang ! across an expression in parenthesis and flips the boolean operator
+## De Morgan's Law
+#### De Morgan's Law distributes bang ! across an expression in parenthesis and flips the boolean operator
 ```js
  !(A || B) is equivalent to !A && !B
  !(A && B) is equivalent to !A || !B
 ```
 
---- 
+<br> 
 
-### Comparison Operators
+## Comparison Operators
 ```js
 >       // (greater than)
 <       // (less than)
@@ -128,22 +128,22 @@ console.log(0 === false);       // false
 console.log(0 == false);        // true
 ```
 
----
+<br>
 
-### Variables
-##### A variable is a definition set to a value
+## Variables
+#### A variable is a definition set to a value
 - Variables are Declared and then Initialized.
 
 - variables that have not been assigned a value return undefined
 
-##### Declaration:
+#### Declaration:
 ```js
 let bootcamp;
 // ? let variable bootcamp exist
 console.log(bootcamp);      // undefined
 ```
 
-##### Assignment
+#### Assignment
 ```js
 // ? The assignment operator = allows a declared variable to be assigned a value
 
@@ -155,7 +155,7 @@ console.log(bootcamp);      // 'App Academy'
 // You don't need to do both of these things separately
 ```
 
-##### Initialization
+#### Initialization
 ```js
 let bootcamp = "App Academy";
 console.log(bootcamp);      // 'App Academy'
@@ -165,8 +165,8 @@ console.log(birthYear);     // 2012
 
 ```
 
-### Messing About with Variables
-##### Manipulating the value of a variable
+## Messing About with Variables
+#### Manipulating the value of a variable
 ```js
 let num = 42;
 // ? num has the value of 42
@@ -176,7 +176,7 @@ console.log(num);       // 42
 // ! The value of num (42) is still 42 because that's what it was initialized as
 ```
 
-##### How to reassign values to variables
+#### How to reassign values to variables
 ```js
 num = num + 10;
 // ? num = num (42) + 10
@@ -192,10 +192,10 @@ number *= 7;            // equivalent to number = number * 7
 console.log(number);    // 14
 ```
 
----
+<br>
 
-### NaN
-##### NaN refers to Not a Number, a result you get when you are doing bad math
+## NaN
+#### NaN refers to Not a Number, a result you get when you are doing bad math
 ```js
 let num;
 console.log(num + 3);               // NaN

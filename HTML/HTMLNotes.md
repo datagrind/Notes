@@ -13,7 +13,7 @@
 
 Example:
 ```html
-<p>Lorem ipsum cat doughnut french press suspenders lolcat</p>
+<p>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
 ```
 
 ### Tags
