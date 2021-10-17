@@ -21,7 +21,7 @@
 - Can change the HTML and CSS of a webpage and make it dynamic: change it in response to conditions in the code
 - Most powerful & complex of the three core technologies
 
----
+<br>
 
 ## Web Design vs. Web Development
 ### Web Design
@@ -30,7 +30,7 @@
 
 **Web Development is NOT Web Design**
 
----
+
 
 ## Web Development
 
@@ -38,6 +38,7 @@
 ### Standalone 
 
 In a Stand-alone program, a server is not needed. If you want to open calculator, or Solitare, it's just there on your PC. 
+
 <img src="../images/standalone_PC.png">
 
 You can think of this like a RPG or FPS game. Aside from DLC or updates it's a self-contained product.
@@ -49,9 +50,10 @@ A web server is a computer connected to the internet and configured to respond t
 The browser requests a web page from the server, and the server sends back the code the browser needs to display the web site.
     
 <img src="../images/server-client.png">
+
 The client and server will continue to communicate data back and forth to each other over the internet. 
 
----
+<br>
 
 ## Front End vs. Back End vs. Full Stack
      
@@ -62,7 +64,7 @@ The code that lives server-side is referred to as the Back End.
 
 
 
-
+<br>
 
 
 ### Front End
@@ -78,7 +80,7 @@ The code that lives server-side is referred to as the Back End.
 
 
 
----
+<br>
 
 
 ## Libraries and Frameworks
