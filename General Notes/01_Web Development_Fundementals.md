@@ -39,6 +39,7 @@
 
 In a Stand-alone program, a server is not needed. If you want to open calculator, or Solitare, it's just there on your PC. 
 <img src="../images/standalone_PC.png">
+
 You can think of this like a RPG or FPS game. Aside from DLC or updates it's a self-contained product.
 
 ### Server-Supported:
@@ -54,10 +55,10 @@ The client and server will continue to communicate data back and forth to each o
 
 ## Front End vs. Back End vs. Full Stack
      
-     In server-supported web pages and applications, different "Ends" of the web page are the client-side browser and the server-side code. 
+In server-supported web pages and applications, different "Ends" of the web page are the client-side browser and the server-side code. 
 
-     HTML, CSS, and JS are all clinet-side, Front End technologies. 
-     The code that lives server-side is referred to as the Back End. 
+HTML, CSS, and JS are all clinet-side, Front End technologies. 
+The code that lives server-side is referred to as the Back End. 
 
 
 
