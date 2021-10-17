@@ -116,12 +116,13 @@ console.log(arr)                          // ["a", "x", "c"];
 <br>
 
 ## Manipulating Arrays
-### Array Methods
-
 - Adding elements to an array:
   - When adding array items, multiple items can be added:
   - ```dogs.push(el1, el2, el3)```
+  
+<br>
 
+### Array Methods
 ### Array.unshift
 - Add and element to the start of an array & return the new length
 ```js
