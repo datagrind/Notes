@@ -75,6 +75,6 @@ The code that lives server-side is referred to as the Back End.
 ## Libraries and Frameworks
 - Developers often package reuseable code as open-source libraries and frameworks
 - Shared with other developers to use instead of reinventing wheel 
-- Many CSS & JavaScript libraries and frameworks
-- Rare to write webpages from scratch without using one or more
-- After learning HTML/CSS/JavaScript, next step is to start learning popular libraries/frameworks
+- There are many CSS & JavaScript libraries and frameworks
+- It's rare to write webpages from scratch without using one or more libraries or frameworks
+- After learning HTML/CSS/JavaScript, the next step is to start learning popular libraries/frameworks
