@@ -22,7 +22,7 @@
 
 ### Open Terminal in VSCode
 ```
-ctrl+`          // ctrl + ` backtick, on the ~ tilde key next to 1. 
+ctrl + `          // ctrl + ` backtick, on the ~ tilde key next to 1. 
 ```
 
 <img src="../images/Open_Terminal.JPG">
@@ -33,10 +33,14 @@ ctrl+`          // ctrl + ` backtick, on the ~ tilde key next to 1.
 ### List files in the current directory
 ```
 ls              // show every file and folder in the directory
-//  Flags
-// ? a dash - signifies a flag. Flags come after commands.
--a
-ls -a           // shows hidden files as well
+
+                // Flags
+                // a dash - signifies a flag.
+                // Flags come after commands
+
+-a 
+                // Flag to show hidden files
+ls -a           // shows hidden files as well in the directory
 ```
 
 <br>
