@@ -120,7 +120,6 @@ console.log(arr)                          // ["a", "x", "c"];
   - When adding array items, multiple items can be added:
   - ```dogs.push(el1, el2, el3)```
   
-<br>
 
 ### Array Methods
 ### Array.unshift
