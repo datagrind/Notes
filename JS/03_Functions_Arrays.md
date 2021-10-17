@@ -130,7 +130,7 @@ let catsLength = cats.unshift("Garfield");
 console.log(cats);                          // => ["Garfield", "Whiskers", "Mr. Feets", "Snookums"]
 console.log(cats.Length);                   // => 4
 ```
-<br>
+
 
 ### Array.push
 -  Add an element to the end of an array & return the new length
@@ -155,7 +155,7 @@ let firstCat = cats.shift();
 console.log(cats);                          // => ["Whiskers", "Garfield"]
 console.log(firstCat);                      // => "Paprika"
 ```
-<br>
+
 
 ### Array.pop
 -   Remove an element from the end of a new array & return the removed element
