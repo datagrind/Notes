@@ -1,5 +1,5 @@
-## Node and VSCode Terminal
-### Terminal
+# Node and VSCode Terminal
+## Terminal
 
 Open VSCode:
 ```
