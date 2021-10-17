@@ -1,5 +1,5 @@
-## Functions and Arrays
-### Function Expression Syntax
+# Functions and Arrays
+## Function Expression Syntax
 - Functions can be declared using Function Declaration or Function Expression Syntax
 - Function Declaration is already familiar:
 ```js
@@ -8,7 +8,8 @@ function newFunction(parameter1,parameter2){
     // some-code
 }
 ```
----
+
+
 ```js
 function sayHello(){
     console.log("hello");
@@ -21,32 +22,33 @@ let newFunction = function (parameter1,parameter2){
     // some-code
 }
 ```
----
+
 ```js
 let sayHello = function(){
     console.log("Hello Everyone");
 }
 ```
----
+
 ```js
 const arr = [getAvg, name, age];
 
 console.log(arr[0](6,4)); // 5
 // ? here, we are indexing into the array arr and passing in arguments for function getAvg
 ```
----
 
-### First Class Objects
+<br>
+
+## First Class Objects
 - Functions are First Class Objects in JavaScript
 - First Class objects can be:
     - Stored in a variable, Object, or Array
     - Passed as an argument to a function
     - returned from a function
 
----
+<br>
 
-### Arrays
-#### Array Basics
+## Arrays
+### Array Basics
 - Arrays are used to store multiple values within a list-like structure
 - Values are stored in order and separated by commas
 - Arrays are dynamic with no set length - items can be removed or added
@@ -67,7 +69,7 @@ let newArray = [];                      // ? Arrays can be empty
 [12, true, "banana", [3]];
 ```
 
-#### Concatenating Arrays
+### Concatenating Arrays
 - Arrays can be concatenated together to form a new, better array
 - Arrays must be concatenated into a new, separate array
 ```js
@@ -80,14 +82,14 @@ let newArray = array1.concat(array2);
 console.log(newArray);                   // [1, "banana", true, "snake", [3, 6], false]
 ```
 
-#### Mutable & Immutable Types
+### Mutable & Immutable Types
 - Mutable objects can be changed
 - Immutable Objects cannot be changed
 - Mutable Types:
     - Arrays
     - Objects
 
-##### Immutable Types:
+#### Immutable Types:
   - Strings
   - Numbers / Integers
   - NaN
@@ -96,7 +98,8 @@ console.log(newArray);                   // [1, "banana", true, "snake", [3, 6],
 
 **Some objects (like strings) are re-assignable. THIS DOES NOT MEAN MUTABLE**
 
----
+<br>
+
 ```js
 // how to mutate arrays
 
@@ -107,16 +110,16 @@ arr[1] = "x";                             // mutate array arr at index 1
 console.log(arr)                          // ["a", "x", "c"];
 ```
 
----
+<br>
 
-### Manipulating Arrays
-#### Array Methods
+## Manipulating Arrays
+### Array Methods
 
 - Adding elements to an array:
   - When adding array items, multiple items can be added:
   - ```dogs.push(el1, el2, el3)```
 
-#### Array.unshift
+### Array.unshift
 - Add and element to the start of an array & return the new length
 ```js
 let cats = ["Whiskers", "Mr. Feets", "Snookums"]
@@ -124,9 +127,9 @@ let catsLength = cats.unshift("Garfield");
 console.log(cats);                          // => ["Garfield", "Whiskers", "Mr. Feets", "Snookums"]
 console.log(cats.Length);                   // => 4
 ```
----
+<br>
 
-#### Array.push
+### Array.push
 -  Add an element to the end of an array & return the new length
 ```js
 let animals = ["ant", "bear", "dog"]
@@ -134,14 +137,14 @@ let animalLength = animals.push("cat")
 console.log(animals);                       // => ["ant", "bear", "dog", "cat"]
 console.log(animals.Length);                // => 4
 ```
----
+<br>
 
-### Removing elements from an array:
+## Removing elements from an array:
 - When removing array items, only one item can be removed at at time:
 - ```dogs.pop();```
 - ```dogs.pop();``` etc.
 
-#### Array.shift
+### Array.shift
 -  Remove an element from the start of an array & return the removed element
 ```js
 let cats = ["Paprika", "Whiskers", "Garfield"]
@@ -149,9 +152,9 @@ let firstCat = cats.shift();
 console.log(cats);                          // => ["Whiskers", "Garfield"]
 console.log(firstCat);                      // => "Paprika"
 ```
----
+<br>
 
-#### Array.pop
+### Array.pop
 -   Remove an element from the end of a new array & return the removed element
 ```js
 let dogs = ["fido", "rover"]
@@ -160,9 +163,9 @@ console.log(dogs);                          // => ["fido"]
 console.log(lastDog);                       // => "rover"
 ```
 
----
+<br>
 
-### Nested Loops
+## Nested Loops
 - Basically Loop-Ception
 ```js
 for (let i = 0; i < 4; i++) {               // loop
@@ -173,9 +176,9 @@ for (let i = 0; i < 4; i++) {               // loop
 ```
 - Loops can be nested indefinitely
 
----
+<br>
 
-### Pairs in Arrays
+## Pairs in Arrays
 - How to pair up elements of one array to elements of anotehr array
 ```js
 let dogs = ['belka', 'strelka', 'laika', 'dezik']
@@ -188,9 +191,9 @@ for(let i = 0; i < dogs.length; i++) {      // loop
   }
 }
 ```
----
+<br>
 
-### Unique Pairs in Arrays
+## Unique Pairs in Arrays
 - How to pair up elements without ever repeating a pair
 
 ```js
