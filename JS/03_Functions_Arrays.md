@@ -68,6 +68,7 @@ let newArray = [];                      // ? Arrays can be empty
 // Arrays can contain many types of data: Strings,Booleans, Integers, other Arrays...
 [12, true, "banana", [3]];
 ```
+<br>
 
 ### Concatenating Arrays
 - Arrays can be concatenated together to form a new, better array
@@ -81,6 +82,7 @@ let newArray = array1.concat(array2);
 
 console.log(newArray);                   // [1, "banana", true, "snake", [3, 6], false]
 ```
+<br>
 
 ### Mutable & Immutable Types
 - Mutable objects can be changed
@@ -88,6 +90,8 @@ console.log(newArray);                   // [1, "banana", true, "snake", [3, 6],
 - Mutable Types:
     - Arrays
     - Objects
+
+<br>
 
 #### Immutable Types:
   - Strings
