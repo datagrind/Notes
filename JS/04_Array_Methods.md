@@ -1,6 +1,6 @@
-## Array Javascript methods
-### ```forEach();```
-#### ```forEach();``` is a built in array method in JS that iterates through an array in order and can return the element, index, and the array itself
+# Array Javascript methods
+## ```forEach();```
+### ```forEach();``` is a built in array method in JS that iterates through an array in order and can return the element, index, and the array itself
 
 ```js
 // ? have an array:
@@ -45,10 +45,10 @@ parks.forEach(function(ele, i) {                   // => to get to the i paramet
 - Do not return inside a ```forEach();``` -- it does not work with a return statement inside it.
 - The return value of ```forEach();``` is always undefined.
 
----
+<br>
 
-### ```Map();```
-#### ```map();``` is a built in array method in JS that generates a new array and pushes elements from the previous array to the new array
+## ```Map();```
+### ```map();``` is a built in array method in JS that generates a new array and pushes elements from the previous array to the new array
 ```js
 // have an array:
 let parks = ["Zion", "Yellowstone", "Yosemite", "Valley of Fire"]
@@ -72,10 +72,10 @@ console.log(newParks)                               // => ["ZION", "YELLOWSTONE"
 
 **You MUST return inside ```map();``` -- it is expecting a return statement to work properly**
 
----
+<br>
 
-### ```filter();```
-#### ```filter();``` pushes an element to a new array if the result of some boolean logic for that element is true
+## ```filter();```
+### ```filter();``` pushes an element to a new array if the result of some boolean logic for that element is true
 ```js
 // have an array:
 let parks = ["Zion", "Yellowstone", "Yosemite", "Valley of Fire"]
@@ -101,10 +101,10 @@ parks.filter(function(park){
 
 **You MUST return inside ```filter();``` -- it is expecting a return statement to work properly**
 
----
+<br>
 
-### ```reduce();```
-#### ```reduce();``` sums up all the elements in an array into the sum of those elements
+## ```reduce();```
+### ```reduce();``` sums up all the elements in an array into the sum of those elements
 ```js
 // how to use reduce();
 let nums = [3, 7, 5, 9]
