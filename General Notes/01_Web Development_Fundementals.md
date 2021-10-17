@@ -51,7 +51,13 @@
 
 ### Front End vs. Back End vs. Full Stack
      
-     In server-supported web pages and applications, different "Ends"  
+     In server-supported web pages and applications, different "Ends" of the web page
+     are the client-side browser and the server-side code. 
+
+     HTML, CSS, and JS are all clinet-side, Front End technologies. 
+     The code that lives server-side is referred to as the Back End. 
+
+
 
 
 
