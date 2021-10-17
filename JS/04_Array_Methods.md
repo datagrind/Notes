@@ -1,6 +1,6 @@
 # Array Javascript methods
 ## ```forEach();```
-### ```forEach();``` is a built in array method in JS that iterates through an array in order and can return the element, index, and the array itself
+#### ```forEach();``` is a built in array method in JS that iterates through an array in order and can return the element, index, and the array itself
 
 ```js
 // ? have an array:
@@ -48,7 +48,7 @@ parks.forEach(function(ele, i) {                   // => to get to the i paramet
 <br>
 
 ## ```Map();```
-### ```map();``` is a built in array method in JS that generates a new array and pushes elements from the previous array to the new array
+#### ```map();``` is a built in array method in JS that generates a new array and pushes elements from the previous array to the new array
 ```js
 // have an array:
 let parks = ["Zion", "Yellowstone", "Yosemite", "Valley of Fire"]
@@ -75,7 +75,7 @@ console.log(newParks)                               // => ["ZION", "YELLOWSTONE"
 <br>
 
 ## ```filter();```
-### ```filter();``` pushes an element to a new array if the result of some boolean logic for that element is true
+#### ```filter();``` pushes an element to a new array if the result of some boolean logic for that element is true
 ```js
 // have an array:
 let parks = ["Zion", "Yellowstone", "Yosemite", "Valley of Fire"]
@@ -104,7 +104,7 @@ parks.filter(function(park){
 <br>
 
 ## ```reduce();```
-### ```reduce();``` sums up all the elements in an array into the sum of those elements
+#### ```reduce();``` sums up all the elements in an array into the sum of those elements
 ```js
 // how to use reduce();
 let nums = [3, 7, 5, 9]
