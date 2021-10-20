@@ -12,7 +12,7 @@ First language of the web
 Most basic building block of a web pages
 
 <br>
-<center>~*~*~*~*~*~*~*~</center>
+
 
 ### Elements
 
@@ -23,7 +23,7 @@ This is a paragraph element:
 <p>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
 ```
 <br>
-<center>~*~*~*~*~*~*~*~</center>
+
 
 ### Tags
 
@@ -33,16 +33,13 @@ This is a paragraph element:
 <p>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
 ```
 
-In this example, ```<p>``` is the opening tag and ```</p>``` is the closing tag.
-
-An element's tags have ```< >``` angle brackets to signify to the browser that this is HTML to be read. 
-
-The proper syntax is in the example above.
-
+In this example, ```<p>``` is the opening tag and ```</p>``` is the closing tag.  
+An element's tags have ```< >``` angle brackets to signify to the browser that this is HTML to be read.
+  
 Closing tags in HTML are always signified by a slash ```/```
 
 <br>
-<center>~*~*~*~*~*~*~*~</center>
+
 
 ### Attributes
 
@@ -80,4 +77,3 @@ The value of ```id``` must:
 
 
 <br>
-<center>~*~*~*~*~*~*~*~</center>
