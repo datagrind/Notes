@@ -1,7 +1,5 @@
 # Basic HTML Notes
 
-## HTML
-
 HyperText Markup Language
 Used to give structure and meaning to and define webpage content
 
@@ -13,8 +11,7 @@ Most basic building block of a web pages
 
 <br>
 
-
-### Elements
+## Elements
 
 All content in a HTML file is contained within different elements
 
@@ -25,9 +22,9 @@ This is a paragraph element:
 <br>
 
 
-### Tags
+## Tags
 
-#### Opening and Closing Tags
+### Opening and Closing Tags
 
 ```html
 <p>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
@@ -41,7 +38,7 @@ Closing tags in HTML are always signified by a slash ```/```
 <br>
 
 
-### Void Elements
+## Void Elements
 A void element does not have a start and end tag. 
 
 ```html
@@ -55,7 +52,7 @@ A void element is contained in a single tag. This kind of element may have an op
 
 <br>
 
-### Attributes
+## Attributes
 
 ```html
 <p id="welcome" class="placeholder" hidden>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
@@ -71,7 +68,7 @@ Multiple atributes can be added to an HTML element by adding a space between att
 
 <br>
 
-#### Boolean Attributes
+### Boolean Attributes
 ```html
 <p hidden>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
 ```
@@ -82,7 +79,7 @@ Some attributes will not have values, as they have their "true" state implied by
 
 <br>
 
-#### Other Attributes
+### Other Attributes
 
 Most attributes in HTML follow the following format. here, the attribute we are using as an example is ```id```.
 
@@ -98,7 +95,7 @@ The value of ```id``` must:
 
 <br>
 
-### Headings
+## Headings
 Headings in HTML help to organize information into categories and sub-categories of increasing complexity and information. 
 
 ```<h1>``` is the most important, and ```<h6>``` is the least important.

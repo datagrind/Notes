@@ -5,7 +5,7 @@ It provides the basic structure of a page's layout - text, media, ads, navigatio
 
 ## Page Structure & Layout
 
-An HTML page is comprised of two basic components: the header and the main body of the page.  
+A HTML page is comprised of two basic components: the head and the main body of the page.  
 A footer is sometimes added on after the main body, but this is optional. 
 
 ```html
@@ -20,8 +20,14 @@ A footer is sometimes added on after the main body, but this is optional.
 </html>
 ```
 
+### Head 
+The head in a HTML document 
 
 <br>
 
+### Body
 
-### 
+
+<br>
+
+###
