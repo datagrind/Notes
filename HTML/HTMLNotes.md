@@ -68,7 +68,10 @@ Some attributes will not have values, as they have their "true" state implied by
 
 <br>
 
-#### id
+#### Other Attributes
+
+Most attributes in HTML follow the following format. here, the attribute we are using as an example is ```id```.
+
 ```html
 <p id="welcome">Lorem ipsum kitten doughnut french press suspenders lolcat</p>
 ```
@@ -81,7 +84,10 @@ The value of ```id``` must:
 
 <br>
 
-#### 
+### Void Elements
+A void element does not have a start and end tag. 
+
+
 
 
 <br>
