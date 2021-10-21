@@ -1,11 +1,16 @@
-# Building a Web Page with HTML
+# Page Structure & Layout
 
 HTML is the most basic building block of the web.  
 It provides the basic structure of a page's layout - text, media, ads, navigation, etc. 
 
-## Page Structure & Layout
+<br>
 
-A HTML page is comprised of two basic components: the head and the main body of the page.  
+**Page Structure:**
+
+An HTML file is comprised of two basic components: 
+* the Head
+* the Body 
+
 A footer is sometimes added on after the main body, but this is optional. 
 
 ```html
@@ -19,13 +24,17 @@ A footer is sometimes added on after the main body, but this is optional.
   </body>
 </html>
 ```
+<br>
 
-### Head 
-The head in a HTML document 
+## Head 
+The Head of an HTML file
 
 <br>
 
-### Body
+## Body
+The Body of an HTML file is the content that appears to someone viewing that page in a web browser
+
+### Body Elements
 
 
 <br>
