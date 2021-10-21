@@ -53,6 +53,8 @@ An attribute typically has a name and a value.
 
 Above, the attribute name is ```id```, the attribute value is the string ```"welcome"```, and they are separated by an ```=``` equals sign.
 
+Multiple atributes can be added to an HTML element by adding a space between attribute declarations. 
+
 <br>
 
 #### Boolean Attributes
@@ -67,13 +69,19 @@ Some attributes will not have values, as they have their "true" state implied by
 <br>
 
 #### id
+```html
+<p id="welcome">Lorem ipsum kitten doughnut french press suspenders lolcat</p>
+```
+
 ```id```'s attribute value must be a single string with no spaces.
 
 The value of ```id``` must:
 * Start with a letter
 * use ```-``` hyphen or ```_``` underscore to connext multiple words in the string
 
-####
+<br>
+
+#### 
 
 
 <br>
