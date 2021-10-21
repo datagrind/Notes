@@ -41,6 +41,20 @@ Closing tags in HTML are always signified by a slash ```/```
 <br>
 
 
+### Void Elements
+A void element does not have a start and end tag. 
+
+```html
+<meta charset="utf-8"/>
+or
+<meta charset="utf-8">
+```
+A void element is contained in a single tag. This kind of element may have an optional closing slash at the end of its tag.
+
+```<meta>```, ```<img>```, and ```<br>``` are all examples of void elements
+
+<br>
+
 ### Attributes
 
 ```html
@@ -64,7 +78,7 @@ Multiple atributes can be added to an HTML element by adding a space between att
 
 Some attributes will not have values, as they have their "true" state implied by existing in the tag. 
 
-```hidden``` is one such attribute - by being present in the tag, the element is hidden.
+```hidden``` is one such attribute - by being present in the tag, the element is hidden. This element's existence implies its function is active. 
 
 <br>
 
@@ -83,9 +97,6 @@ The value of ```id``` must:
 * use ```-``` hyphen or ```_``` underscore to connext multiple words in the string
 
 <br>
-
-### Void Elements
-A void element does not have a start and end tag. 
 
 
 
