@@ -29,7 +29,7 @@ This:
     </table>              // Closing the table
 ```
 
-    Makes This:
+Makes This:
 <table>
     <thead>
         <tr>
