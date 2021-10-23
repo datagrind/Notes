@@ -91,5 +91,16 @@ Sometimes, you may need a row or a column to span across multiple instances:
         </tr>     
 </table>   
 
+<br>
 
+## Forms
+Forms allow users to submit data to a server and recieve information back.  
 
+```html
+<form>
+    <input type="text">
+    <input type="submit" value="go">
+</form>
+```
+
+<img src="../images/input_form.png">
