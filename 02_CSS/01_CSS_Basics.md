@@ -135,7 +135,7 @@ h2 {
 ```
 <br>
 
-#### HTML Span Element
+### HTML Span Element
 The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.  
 
 ```html
@@ -151,11 +151,21 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
 </body>
 ```
 
-#### Pixels vs. Em vs. Rem
+<br>
+
+### Pixels vs. Em vs. Rem
 Pixels do not render at the same size across different monitors:  
 100px is going to look different at 1024px x 768px than it does at 2560px x 1440px.
 
 Because of this, it is better to use ```em``` and ```rem``` than it is to use ```px```
+
+#### Em
+```em``` is relative to the font size of its direct or nearest parent.  
+Because of this, ```em```'s size may fluctuate based on where in the page it is used.
+
+
+#### Rem
+```rem``` is relative to the root HTML document font size, so using ```rem``` will always scale to the same size across HTML elements
 
 
 
