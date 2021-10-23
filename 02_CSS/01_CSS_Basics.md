@@ -154,6 +154,21 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
 <br>
 
 ### Pixels vs. Em vs. Rem
+
+```css
+body{
+    font-size:16px;
+}
+
+body{
+    font-size:2em;
+}
+
+body{
+    font-size:3rem;
+}
+```
+
 Pixels do not render at the same size across different monitors:  
 100px is going to look different at 1024px x 768px than it does at 2560px x 1440px.
 
