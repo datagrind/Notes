@@ -12,11 +12,11 @@ CSS may be applied to a web page using two methods:
 * External Stylesheets
 * Internal Stylesheets
 
-<br>
-
 ### External Stylesheets
 External stylesheets are CSS documents that exist on their own, independent from any other code or HTML.  
-External stylesheets are the preferred way to utilize CSS 
+**External stylesheets are the preferred way to utilize CSS**     
+They are easier to maintain and have the advantage of being modular.  
+External stylesheets can also be linked to multiple HTML pages.
 ```css
 stylesheet.css
 ```
@@ -24,13 +24,43 @@ External stylesheets are linked in HTML with ```link rel```:
 ```html
 <link rel="stylesheet" href="CSS/Style.css">
 ```
-<br>
+
 
 ### Internal Stylesheets
+Internal stylesheets are placed in the ```<head>``` of an HTML document using ```<style>``` tags.
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <style>
+        body{
+            background-color:#333333;
+        }
+    </style>
+
+    <title>Some Web Page</title>
+  </head>
+```
 
 
+### Inline Styles -- NO!
+CSS styling *can* be applied directly to HTML elements... but please don't. **Please don't do this.**  
+This example is presented solely because it's still semi-common to run into inline styling in the wild while looking at sites with dev tools, and it helps to know what you're looking at. 
 
+Inline CSS Styling is the equivalent of a kid writing with crayon on the wall:  
+You may have made it work, but no one is happy & now your mess needs cleaned up. 
 
+**Do Not Do This:**
+```html
+<body>
+    <--! Please Don't Do This -->
+    <section style="background-color:#333333;">     // NO!!
+    <--! God No -->
+    </section>
+</body>
+```
 
 
 <br>
@@ -41,10 +71,16 @@ External stylesheets are linked in HTML with ```link rel```:
 
 <br>
 
-### 
+### CSS Selectors
+Every CSS rule starts with a selector, seen above in pink.
 
-### Selectors
-#### A regular css selector referencing the HTML element type
+Common selectors include:
+* element (type) selectors
+* id selectors
+* class selectors
+
+
+#### An element css selector referencing the HTML element type
 
 ``` css
     h2 {
@@ -52,7 +88,9 @@ External stylesheets are linked in HTML with ```link rel```:
    }
 ```
 
-#### A class css selector referencing the HTML class selector
+#### A class css selector referencing the HTML class
+class selectors may be applied to multiple HTML elements.  
+Multiple class selectors may be applied to a single element.
 
 ``` css 
     .redclass {
@@ -60,7 +98,11 @@ External stylesheets are linked in HTML with ```link rel```:
    }
 ```
 
-#### An id css selector referencing the HTML id selector
+#### An id css selector referencing the HTML id
+id selectors should be unique and only applied to one HTML element.  
+If id is used multiple times, only the first element with that id will be targeted
+
+Multiple ids cannot be set on the same element
 
 ``` css
     #bigdiv {
@@ -77,6 +119,7 @@ Example:
     </div>
 ```
 
+
 ``` css
 h2 {
     font-size: 18px;
@@ -90,6 +133,36 @@ h2 {
     color: blue;
 }
 ```
+<br>
+
+#### HTML Span Element
+The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.  
+
+```html
+<head>
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p>I wish this <span class="red">text was red</span></p>
+</body>
+```
+<head>
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p>I wish this <span class="red">text was red</span></p>
+</body>
+
+
+
 <br>
 
 ## The Box Model

@@ -43,9 +43,14 @@ The Body of an HTML file is the content that appears to someone viewing that pag
 
 #### div
 
+#### span
+The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.
+
+More about this in CSS Notes. 
+
 <br>
 
-#### Headings
+### Headings
 Headings in HTML help to organize information into categories and sub-categories of increasing complexity and information. 
 
 ```<h1>``` is the most important, and ```<h6>``` is the least important.
