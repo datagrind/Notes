@@ -156,10 +156,13 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
 ### Pixels vs. Em vs. Rem
 
 ```css
+/* Pixels are not fixed across resolutions */
 body{
     font-size:16px;
 }
 
+
+/* But em and rem are */
 body{
     font-size:2em;
 }
