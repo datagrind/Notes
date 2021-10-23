@@ -10,7 +10,7 @@
 
 <br>
 
-**ALL the following commands assume you are opening your folder in WSL and have your files on Ubuntu running as a VM on your PC.** 
+**ALL the following commands assume you are opening your folder in WSL and have your files on Ubuntu running on your PC.** 
 
 ***This is not using windows Powershell.***  
 
