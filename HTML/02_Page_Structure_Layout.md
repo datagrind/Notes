@@ -31,7 +31,8 @@ A footer is sometimes added on after the main body, but this is optional.
 <br>
 
 ## Head 
-The Head of an HTML file
+
+
 
 <br>
 
