@@ -4,8 +4,6 @@
 Tables are used to arrange content into rows and columns in a tabular format.  
 
 ### Basic Tables
-This:
-
 ```html
 <table>                         // Opening the table element itself
     <thead>                     // The header on the table
@@ -30,8 +28,6 @@ This:
         </tbody>                // Closing the table body
     </table>                    // Closing the table
 ```
-
-Makes This:
 <table>
     <thead>
         <tr>
@@ -53,7 +49,9 @@ Makes This:
             <td>C</td>
         </tr>    
     </tbody>       
-</table>           
+</table>    
+
+<br>
 
 ### More Complex Tables
 Sometimes, you may need a row or a column to span across multiple instances:
@@ -76,7 +74,6 @@ Sometimes, you may need a row or a column to span across multiple instances:
         </tr>     
 </table>    
 ```
-
 <table>
         <tr>              
             <td rowspan="2">1</td>  
