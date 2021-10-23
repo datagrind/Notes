@@ -150,16 +150,7 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
     <p>I wish this <span class="red">text was red</span></p>
 </body>
 ```
-<head>
-    <style>
-        .red{
-            color:red;
-        }
-    </style>
-</head>
-<body>
-    <p>I wish this <span class="red">text was red</span></p>
-</body>
+
 
 
 
