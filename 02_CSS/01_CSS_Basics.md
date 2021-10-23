@@ -104,7 +104,7 @@ If id is used multiple times, only the first element with that id will be target
 
 Multiple ids cannot be set on the same element
 
-``` css
+```css
     #bigdiv {
         background-color:red;
    }
@@ -112,7 +112,7 @@ Multiple ids cannot be set on the same element
 
 Example:
 
-``` html
+```html
     <div id="bigDiv">
         <h2>Hello World</h2> 
         <h3 class="redclass">Red Red Red</h3>
@@ -120,7 +120,7 @@ Example:
 ```
 
 
-``` css
+```css
 h2 {
     font-size: 18px;
 }
