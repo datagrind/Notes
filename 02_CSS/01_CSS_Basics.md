@@ -29,7 +29,10 @@ External stylesheets are linked in HTML with ```link rel```:
 ### Internal Stylesheets
 Internal stylesheets are placed in the ```<head>``` of an HTML document using ```<style>``` tags.
 ```html
+
+<!-- lets the browser know the document is using HTML5 -->
 <!DOCTYPE html>
+<!-- declaring the HTML language helps the browser render it appropriately, and aids google translate -->
 <html lang="en">
   <head>
     <meta charset="UTF-8">

@@ -17,14 +17,20 @@ A footer is sometimes added on after the main body, but this is optional.
 
 **Basic HTML File Boilerplate:**
 ```html
+<!-- declaring that the HTML Document uses HTML5 -->
 <!DOCTYPE html>
+<!-- declaring the HTML language helps the browser render it appropriately, and aids google translate -->
 <html lang="en">
   <head>
+    <!-- declare the character set -->
     <meta charset="UTF-8">
+    <!-- title of the page goes in the head -->
     <title>HTML 5 Boilerplate Starter</title>
   </head>
   <body>
-    [Some Content Here]
+
+    <!-- the actual content of the web page goes in the body -->
+    
   </body>
 </html>
 ```
