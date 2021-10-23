@@ -66,7 +66,7 @@ Margin box:
 
 Example:
 
-<img src="../images/box-model.png">
+<img src="../images/box-model1.png">
 <img src="../images/box-model2.png">
 
 <br>
