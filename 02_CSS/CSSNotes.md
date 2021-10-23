@@ -1,8 +1,31 @@
 # Basic CSS Notes
 
-CSS is Cascading Style Sheets
+CSS is Cascading Style Sheets.  
+The "cascading" algorithm determines how CSS is applied to a web page.
 
-#### a regular css selector referencing the HTML element type
+CSS determines the width, height, colors, margins, borders, backgrounds, etc. of web pages. 
+
+<br>
+
+## External and Internal Stylesheets
+CSS may be applied to a web page using two methods: 
+* External Stylesheets
+* Internal Stylesheets
+
+### External Stylesheets
+External stylesheets are CSS documents that exist on their own, independent from any other code or HTML.  
+
+
+## CSS Styling and Rules
+### Basic CSS Declaration
+<img src="../images/CSSRuleSet.png">
+
+<br>
+
+### 
+
+### Selectors
+#### A regular css selector referencing the HTML element type
 
 ``` css
     h2 {
@@ -10,7 +33,7 @@ CSS is Cascading Style Sheets
    }
 ```
 
-#### a class css selector referencing the HTML class selector
+#### A class css selector referencing the HTML class selector
 
 ``` css 
     .redclass {
@@ -18,7 +41,7 @@ CSS is Cascading Style Sheets
    }
 ```
 
-#### an id css selector referencing the HTML id selector
+#### An id css selector referencing the HTML id selector
 
 ``` css
     #bigdiv {
