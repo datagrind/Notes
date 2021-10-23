@@ -98,9 +98,11 @@ Forms allow users to submit data to a server and recieve information back.
 
 ```html
 <form>
-    <input type="text">
-    <input type="submit" value="go">
+    <input type="text">                 // Creates the text box 
+    <input type="submit" value="go">    // Creates the submit button
 </form>
 ```
 
 <img src="../images/input_form.png">
+
+However, the form above is only for show. It will not actually send user data to a server. 
