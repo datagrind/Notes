@@ -11,7 +11,7 @@ console.log("how are you?");    // how are you?
 ```
 
 - ```console.log();``` should be used for debugging purposes only.
-- Debugging means to locate and solve errors in your code. Console.log is mostly used as a way to locate the error(s) in your code.
+- Debugging means to locate and solve errors in your code. ```console.log``` is mostly used as a way to locate the error(s) in your code.
 
 <br>
 
@@ -91,7 +91,7 @@ console.log(true || true);      // true
 <br>
 
 ## De Morgan's Law
-**De Morgan's Law distributes bang ! across an expression in parenthesis and flips the boolean operator**
+**De Morgan's Law distributes bang ```!``` across an expression in parenthesis and flips the boolean operator**
 ```js
  !(A || B) is equivalent to !A && !B
  !(A && B) is equivalent to !A || !B
