@@ -16,7 +16,7 @@ console.log("how are you?");    // how are you?
 <br>
 
 ## Operators & Operations
-#### Operators
+### Operators
 ```js
 ()      // parenthesis - encloses an operation and makes it highest priority. 
         // If there are multiple operations enclosed in parenthesis, use Order of Operations to determine priority
@@ -31,7 +31,7 @@ console.log("how are you?");    // how are you?
 <br>  
 
 ## Order of Operations
-#### In order of importance, order of operations is:
+**In order of importance, order of operations is:**
 ```js
 () % / * + -
 
@@ -72,7 +72,7 @@ console.log(!false);    // true
 console.log(!!false);   // false
 ```
 
-#### the && operator only returns true if both sides are true
+**The ```&&``` operator only returns true if both sides are true**
 ```js
 console.log(false && false);    // false
 console.log(false && true);     // false
@@ -80,7 +80,7 @@ console.log(true && false);     // false
 console.log(true && true);      // true
 ```
 
-#### the || operator only returns false if both sides are false
+**the ```||``` operator only returns false if both sides are false**
 ```js
 console.log(false || false);    // false
 console.log(false || true);     // true
@@ -91,7 +91,7 @@ console.log(true || true);      // true
 <br>
 
 ## De Morgan's Law
-#### De Morgan's Law distributes bang ! across an expression in parenthesis and flips the boolean operator
+**De Morgan's Law distributes bang ! across an expression in parenthesis and flips the boolean operator**
 ```js
  !(A || B) is equivalent to !A && !B
  !(A && B) is equivalent to !A || !B
@@ -131,10 +131,13 @@ console.log(0 == false);        // true
 <br>
 
 ## Variables
-#### A variable is a definition set to a value
-- Variables are Declared and then Initialized.
 
-- variables that have not been assigned a value return undefined
+### What is a Variable?
+**A variable is a definition set to a value**  
+A variable can be thought of as a box with an item inside. The item is the value. 
+
+Variables are Declared and then Initialized.  
+Variables that have not been assigned a value return ```undefined```
 
 #### Declaration:
 ```js
@@ -147,18 +150,18 @@ console.log(bootcamp);      // undefined
 ```js
 // ? The assignment operator = allows a declared variable to be assigned a value
 
-bootcamp = "App Academy";
-// ? let variable bootcamp contain the string value "App Academy"
-console.log(bootcamp);      // 'App Academy'
-// variable bootcamp now holds the value of 'App Academy'
+bootcamp = "c0dingz";
+// ? let variable bootcamp contain the string value "c0dingz"
+console.log(bootcamp);      // 'c0dingz'
+// variable bootcamp now holds the value of 'c0dingz'
 
 // You don't need to do both of these things separately
 ```
 
 #### Initialization
 ```js
-let bootcamp = "App Academy";
-console.log(bootcamp);      // 'App Academy'
+let bootcamp = "c0dingz";
+console.log(bootcamp);      // 'c0dingz'
 
 let birthYear = 2012;
 console.log(birthYear);     // 2012

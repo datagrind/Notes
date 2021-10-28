@@ -91,6 +91,7 @@ Common selectors include:
 #### A class css selector referencing the HTML class
 ```class``` selectors may be applied to multiple HTML elements.  
 Multiple ```class``` selectors may be applied to a single element.
+A ```class```
 
 ``` css 
     .redclass {

@@ -105,4 +105,4 @@ Forms allow users to submit data to a server and recieve information back.
 
 <img src="../images/input_form.png">
 
-However, the form above is only for show. It will not actually send user data to a server. 
+However, this form above is only for show. It will not actually send user data to a server. 
