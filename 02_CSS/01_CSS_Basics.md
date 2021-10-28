@@ -29,10 +29,7 @@ External stylesheets are linked in HTML with ```link rel```:
 ### Internal Stylesheets
 Internal stylesheets are placed in the ```<head>``` of an HTML document using ```<style>``` tags.
 ```html
-
-<!-- lets the browser know the document is using HTML5 -->
 <!DOCTYPE html>
-<!-- declaring the HTML language helps the browser render it appropriately, and aids google translate -->
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -92,8 +89,8 @@ Common selectors include:
 ```
 
 #### A class css selector referencing the HTML class
-class selectors may be applied to multiple HTML elements.  
-Multiple class selectors may be applied to a single element.
+```class``` selectors may be applied to multiple HTML elements.  
+Multiple ```class``` selectors may be applied to a single element.
 
 ``` css 
     .redclass {
@@ -102,10 +99,10 @@ Multiple class selectors may be applied to a single element.
 ```
 
 #### An id css selector referencing the HTML id
-id selectors should be unique and only applied to one HTML element.  
-If id is used multiple times, only the first element with that id will be targeted
+```id``` selectors should be unique and only applied to one HTML element.  
+If ```id``` is used multiple times, only the first element with that ```id``` will be targeted
 
-Multiple ids cannot be set on the same element
+Multiple ```id```s cannot be set on the same element
 
 ```css
     #bigdiv {
