@@ -132,8 +132,17 @@ console.log((str1 + str2).indexOf("worl"))  // 6
 - Functions are pieces of code written once and called as many times as needed
 - Functions require 3 things:
   - Name of Function
-  - A list of parameters for the function, enclosed in parentheses ()
+  - Parentheses (), which tell javascript that this is a function to run
+  - An optional list of parameters for the function, enclosed in the parentheses ()
   - The code to execute when the function runs, enclosed in curly braces {}
+
+```js
+addNumbers() {
+  let sum = 5
+  sum += 6
+  console.log(sum)      // 11
+}
+```
 
 ### Function Definition
 ```js
