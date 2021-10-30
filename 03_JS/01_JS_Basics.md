@@ -82,13 +82,16 @@ console.log(6 + 4 / (8 % 6) - 6)    // 2
 !       // (not) referred to as "bang"
 &&      // (and)
 ||      // (or)
-
+```
+**The ```!``` bang operator inverts the status of what it is in front of. Opposite day!**  
+**Two bangs ```!!``` is essentially 'not not" and returns the status to normal:** 
+```js
 console.log(!true);     // false
 console.log(!false);    // true
 console.log(!!false);   // false
 ```
 
-**The ```&&``` operator only returns true if both sides are true**
+**The ```&&``` AND operator only returns true if both sides are true**
 ```js
 console.log(false && false);    // false
 console.log(false && true);     // false
@@ -96,7 +99,7 @@ console.log(true && false);     // false
 console.log(true && true);      // true
 ```
 
-**the ```||``` operator only returns false if both sides are false**
+**the ```||``` OR operator only returns false if both sides are false**
 ```js
 console.log(false || false);    // false
 console.log(false || true);     // true
@@ -268,6 +271,10 @@ Here, Gabby's variable did not update because ```const``` is non-reassignable an
 <br>
 
 ### Variables in Memory
+A variable is a *pointer* to the place in RAM on a computer where the value of the variable's data is stored. 
+
+Think of this like a shortcut on the desktop of your PC: the shortcut is not the actual executable. The shortcut is a *pointer* to the executable that is somewhere in a file structure on your hard drive.   
+Every shortcut you make is an independent, different pointer.  
 
 
 
