@@ -146,6 +146,20 @@ console.log(0 == false);        // true
 
 <br>
 
+## NaN
+#### NaN refers to Not a Number, a result you get when you are doing bad math
+```js
+let num;
+console.log(num + 3);               // NaN
+
+console.log(undefined + 3);         // NaN
+console.log("fish" * 2);            // NaN
+
+// ? NaN is a number type
+console.log(typeof Number(NaN));   // number
+```
+<br>
+
 ## Variables
 
 ### What is a Variable?
@@ -156,13 +170,13 @@ let eggs = 15;
 let bacon = 10;
 ```
 <img src="../images/variable_box.jpg"><br>
-More literally, **a variable is a *pointer* to the value it represents.** More on that below at the bottom of this section. 
+More literally, **a variable is a *pointer* to the value it represents.** More on that below at the [bottom of this section.](#variables-in-memory) 
 
 Variables are Declared and then Initialized.    
 Variables can contain strings, numbers, or booleans. 
 Variables that have not been assigned a value return ```undefined```
 
-#### Declaration:
+###d# Declaration:
 ```js
 let bootcamp;
 // ? let variable bootcamp exist
@@ -225,41 +239,35 @@ console.log(number);    // 14
 ```let``` and ```const``` have different use cases, while ```var``` is sometimes beloved and sometimes a pariah. 
  
 #### Var
-Using ```var``` will result in a variable that is block-scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
+Using ```var``` will result in a variable that is function-scoped or globally scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
 
 ```js
  var varIsScary = "should I really be using var?"
  ```
 
-If you use ```var```, be aware of the scope issues. These notes will cover variable scope and hoisting in a later file. 
+If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/08_Scope_Hoisting_Arrow_Functions.md)
 
 #### Let
+Using ```let``` will result in a block-scoped variable with block-scoped behavior. More on this in [Scope and Hoisting.](../03_JS/08_Scope_Hoisting_Arrow_Functions.md)
 ```js
-let bootPairs = 1;              // Gabby has one pair of boots
+let bootPairs = 1;              // Gabby has 1 pair of boots
 bootpairs = 2;                  // Gabby buys a pair of boots and updates her variable
-console.log(bootPairs);         // 2  
+console.log(bootPairs);         // Gabby's variable is 2  
 ```
+Here, Gabby's variable updated because ```let``` is reassignable. 
+
 #### Const
 ```js
-const sandalPairs = 4;          // Gabby has four pairs of sandals
-sandalPairs = 3;                // Gabby donates a pair of sandals
-console.log(sandalPairs);       // 4
+const sandalPairs = 4;          // Gabby has 4 pairs of sandals
+sandalPairs = 3;                // Gabby donates 1 pair of sandals and updates her variable
+console.log(sandalPairs);       // Gabby's variable is still 4
 ```
-
-
+Using ```const``` will result in a variable that is non-reassignable.   
+Here, Gabby's variable did not update because ```const``` is non-reassignable and therefore is not able to be changed. 
 
 <br>
 
-## NaN
-#### NaN refers to Not a Number, a result you get when you are doing bad math
-```js
-let num;
-console.log(num + 3);               // NaN
+### Variables in Memory
 
-console.log(undefined + 3);         // NaN
-console.log("fish" * 2);            // NaN
 
-// ? NaN is a number type
-console.log(typeof Number(NaN));   // number
-```
 
