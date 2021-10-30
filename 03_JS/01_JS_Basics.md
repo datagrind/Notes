@@ -156,7 +156,7 @@ let eggs = 15;
 let bacon = 10;
 ```
 <img src="../images/variable_box.jpg"><br>
-More literally, a variable is a *pointer* to the value it represents. More on that below at the bottom of this section. 
+More literally, **a variable is a *pointer* to the value it represents.** More on that below at the bottom of this section. 
 
 Variables are Declared and then Initialized.    
 Variables can contain strings, numbers, or booleans. 
