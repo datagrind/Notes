@@ -11,7 +11,7 @@ console.log("how are you?");    // how are you?
 ```
 
 - ```console.log();``` should be used for debugging purposes only.
-- Debugging means to locate and solve errors in your code. ```console.log``` is mostly used as a way to locate the error(s) in your code.
+- Debugging means to locate and solve errors in your code. ```console.log``` is mostly used as a way to debug.
 
 <br>
 
@@ -136,7 +136,16 @@ console.log(0 == false);        // true
 **A variable is a definition set to a value**  
 A variable can be thought of as a box with an item inside. The item is the value. 
 
-Variables are Declared and then Initialized.  
+More literally, a variable is a *pointer* to the value it represents. More on that below at the bottom of this section. 
+
+```js
+let eggs = 15;
+let bacon = 10;
+```
+<img src="../images/variable_box.jpg"><br>
+
+Variables are Declared and then Initialized.    
+Variables can contain strings, numbers, or booleans. 
 Variables that have not been assigned a value return ```undefined```
 
 #### Declaration:
@@ -154,9 +163,9 @@ bootcamp = "c0dingz";
 // ? let variable bootcamp contain the string value "c0dingz"
 console.log(bootcamp);      // 'c0dingz'
 // variable bootcamp now holds the value of 'c0dingz'
-
-// You don't need to do both of these things separately
 ```
+You don't need to do both of these things separately:
+
 
 #### Initialization
 ```js
@@ -166,9 +175,10 @@ console.log(bootcamp);      // 'c0dingz'
 let birthYear = 2012;
 console.log(birthYear);     // 2012
 ```
+
 <br>
 
-## Messing About with Variables
+### Messing About with Variables
 #### Manipulating the value of a variable
 ```js
 let num = 42;
@@ -194,6 +204,35 @@ number /= 4;            // equivalent to number = number / 4
 number *= 7;            // equivalent to number = number * 7
 console.log(number);    // 14
 ```
+
+<br>
+
+### Let vs. Const vs. Var
+```let``` and ```const``` have different use cases, while ```var``` is sometimes beloved and sometimes a pariah. 
+ 
+#### Var
+Using ```var``` will result in a variable that is block-scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
+
+```js
+ var varIsScary = "should I really be using var?"
+ ```
+
+If you use ```var```, be aware of the scope issues. These notes will cover variable scope and hoisting in a later file. 
+
+#### Let
+```js
+let bootPairs = 1;              // Gabby has one pair of boots
+bootpairs = 2;                  // Gabby buys a pair of boots and updates her variable
+console.log(bootPairs);         // 2  
+```
+#### Const
+```js
+const sandalPairs = 4;          // Gabby has four pairs of sandals
+sandalPairs = 3;                // Gabby donates a pair of sandals
+console.log(sandalPairs);       // 4
+```
+
+
 
 <br>
 
