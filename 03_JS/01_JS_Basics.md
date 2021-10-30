@@ -18,9 +18,9 @@ The latest major revision of Javascript is ES6 in 2015. This introduced major ch
 ## ```console.log```
 - use ```console.log();``` to print
 ```js
-"hello"                         // ? Prints nothing.
-                                // ? The REPL takes in "hello" but has not recieved
-                                // ? instructions to spit anything back out
+"hello"                         // Prints nothing.
+                                // The REPL takes in "hello" but has not recieved
+                                // instructions to spit anything back out
 
 console.log("hello world");     // hello world
 console.log("how are you?");    // how are you?
@@ -37,7 +37,7 @@ console.log("how are you?");    // how are you?
 ()      // parenthesis - encloses an operation and makes it highest priority. 
         // If there are multiple operations enclosed in parenthesis, use Order of Operations to determine priority
 
-%       // ? modulo - divides a number by a number and returns the remainder
+%       // modulo - divides a number by a number and returns the remainder
 *       // multiplication
 /       // division
 +       // addition
@@ -79,7 +79,7 @@ console.log(6 + 4 / (8 % 6) - 6)    // 2
 
 ## Boolean Operations
 ```js
-!       // (not)
+!       // (not) referred to as "bang"
 &&      // (and)
 ||      // (or)
 
@@ -121,8 +121,8 @@ console.log(true || true);      // true
 <       // (less than)
 >=      // (greater than or equal to)
 <=      // (less than or equal to)
-==      // ! (DO NOT USE -- will mess up your code)
-===     // (deep equals / strict equal to)
+==      // (**DO NOT USE** -- loose equals -- is tricky and finnicky)
+===     // (deep equals / strict equals)
 !==     // (not equal to)
 
 // Examples:
@@ -135,8 +135,8 @@ console.log(5 !== 6);           // true
 console.log("a" !== "A");       // true
 console.log(false === false);   // true
 
-// ! be careful with == vs === ; == is a trap!
-// ! always use ===
+// be careful with == vs === ; == is a trap!
+// always use ===
 
 console.log(5 === "5");         // false
 console.log(5 == "5");          // true
@@ -239,7 +239,7 @@ console.log(number);    // 14
 ```let``` and ```const``` have different use cases, while ```var``` is sometimes beloved and sometimes a pariah. 
  
 #### Var
-Using ```var``` will result in a variable that is function-scoped or globally scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
+Using ```var``` will result in a variable that is function-scoped or globally-scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
 
 ```js
  var varIsScary = "should I really be using var?"
@@ -248,7 +248,7 @@ Using ```var``` will result in a variable that is function-scoped or globally sc
 If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/08_Scope_Hoisting_Arrow_Functions.md)
 
 #### Let
-Using ```let``` will result in a block-scoped variable with block-scoped behavior. More on this in [Scope and Hoisting.](../03_JS/08_Scope_Hoisting_Arrow_Functions.md)
+Using ```let``` will result in a block-scoped variable with block-scoped behavior.
 ```js
 let bootPairs = 1;              // Gabby has 1 pair of boots
 bootpairs = 2;                  // Gabby buys a pair of boots and updates her variable
@@ -262,7 +262,7 @@ const sandalPairs = 4;          // Gabby has 4 pairs of sandals
 sandalPairs = 3;                // Gabby donates 1 pair of sandals and updates her variable
 console.log(sandalPairs);       // Gabby's variable is still 4
 ```
-Using ```const``` will result in a variable that is non-reassignable.   
+Using ```const``` will result in a variable that is non-reassignable. ```const```, like ```let```, is block-scoped.   
 Here, Gabby's variable did not update because ```const``` is non-reassignable and therefore is not able to be changed. 
 
 <br>
