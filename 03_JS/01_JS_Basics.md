@@ -207,6 +207,12 @@ let birthYear = 2012;
 console.log(birthYear);     // 2012
 ```
 
+When initializing variables, you can also use your variable intializer for multiple variables on one line: 
+
+```js
+let size = "XXS", biggerSize = "M", biggestSize = "XXXL";
+```
+
 <br>
 
 ### Messing About with Variables
@@ -276,5 +282,18 @@ A variable is a *pointer* to the place in RAM on a computer where the value of t
 Think of this like a shortcut on the desktop of your PC: the shortcut is not the actual executable. The shortcut is a *pointer* to the executable that is somewhere in a file structure on your hard drive.   
 Every shortcut you make is an independent, different pointer.  
 
+<br>
+
+### camelCase
+Variable names for javascript are written usually in camelCase.   
+Words are run together, the first letter of the first word is *lowercase*, and the first letter of any following words is *uppercase*.  
+
+```js
+ var dontUseVar = "Seriously, var is globally or fuction scoped, don't use var."
+
+ let betterVariable = "Thank God, let is a normal block-scoped variable"
+
+ const constantVariable = "Good luck changing the value of this constant"
+```
 
 
