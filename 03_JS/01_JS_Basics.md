@@ -291,12 +291,12 @@ console.log(bootPairs);         // Gabby's variable is 2
 Here, Gabby's variable updated because ```let``` is reassignable. 
 
 #### Const
+Using ```const``` will result in a variable that is non-reassignable. ```const```, like ```let```, is block-scoped.   
 ```js
 const sandalPairs = 4;          // Gabby has 4 pairs of sandals
 sandalPairs = 3;                // Gabby donates 1 pair of sandals and updates her variable
 console.log(sandalPairs);       // Gabby's variable is still 4
 ```
-Using ```const``` will result in a variable that is non-reassignable. ```const```, like ```let```, is block-scoped.   
 Here, Gabby's variable did not update because ```const``` is non-reassignable and therefore is not able to be changed. 
 
 <br>
