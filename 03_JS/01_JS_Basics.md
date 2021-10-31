@@ -68,13 +68,9 @@ Just like Elementray and Middle School math, the Order of Operations works like 
 console.log(6 + 4 / (8 % 6) - 6)   // 2
 
 (6 + 4 / (8 % 6) - 6)              // Parenthesis is top priority   (8 % 6) === 2
-
 (6 + 4 / (2) - 6)                  // Division is top priority   4 / (2) === (2)
-
 (6 + (2) - 6)                      // Addition and subtraction have equal priority, go left to right   6 + (2) === 8
-
 (8 - 6)                            // Subtraction is left   8 - 6 = 2
-
 (2)                                // expression returns 2
 ```
 <br>
