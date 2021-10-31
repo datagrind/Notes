@@ -241,6 +241,18 @@ number /= 4;            // equivalent to number = number / 4
 number *= 7;            // equivalent to number = number * 7
 console.log(number);    // 14
 ```
+#### Data Types in Variables
+Variables can hold several data types:
+
+```js
+let falsey = false;                             // boolean
+let message = "🎶 message in a bottle 🎶";     // string    
+let num = 5;                                    // number
+let negNum = -5;                                // negative number
+let newObj = {};                                // objects
+let nullVariable = null;                        // null value
+let noValue;                                    // undefined
+```
 
 <br>
 
