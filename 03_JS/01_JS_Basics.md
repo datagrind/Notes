@@ -179,7 +179,7 @@ Variables are Declared and then Initialized.
 Variables can contain strings, numbers, or booleans. 
 Variables that have not been assigned a value return ```undefined```
 
-###d# Declaration:
+#### Declaration:
 ```js
 let bootcamp;
 // ? let variable bootcamp exist
