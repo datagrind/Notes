@@ -253,6 +253,19 @@ let newObj = {};                                // objects
 let nullVariable = null;                        // null value
 let noValue;                                    // undefined
 ```
+<br>
+
+### camelCase
+Variable names for javascript are written usually in camelCase.   
+Words are run together, the first letter of the first word is *lowercase*, and the first letter of any following words is *uppercase*.  
+
+```js
+ var dontUseVar = "Seriously, var is globally or fuction scoped, don't use var."
+
+ let betterVariable = "Thank God, let is a normal block-scoped variable"
+
+ const constantVariable = "Good luck changing the value of this constant"
+```
 
 <br>
 
@@ -292,20 +305,10 @@ Here, Gabby's variable did not update because ```const``` is non-reassignable an
 A variable is a *pointer* to the place in RAM on a computer where the value of the variable's data is stored. 
 
 Think of this like a shortcut on the desktop of your PC: the shortcut is not the actual executable. The shortcut is a *pointer* to the executable that is somewhere in a file structure on your hard drive.   
+
 Every shortcut you make is an independent, different pointer.  
 
 <br>
 
-### camelCase
-Variable names for javascript are written usually in camelCase.   
-Words are run together, the first letter of the first word is *lowercase*, and the first letter of any following words is *uppercase*.  
-
-```js
- var dontUseVar = "Seriously, var is globally or fuction scoped, don't use var."
-
- let betterVariable = "Thank God, let is a normal block-scoped variable"
-
- const constantVariable = "Good luck changing the value of this constant"
-```
 
 
