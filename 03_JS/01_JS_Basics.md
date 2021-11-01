@@ -125,8 +125,8 @@ console.log(true || true);      // true
 ==      // (**DO NOT USE** -- loose equals -- is tricky and finnicky)
 ===     // (deep equals / strict equals)
 !==     // (not equal to)
-
-// Examples:
+```
+```js
 console.log(10 > 5);            // true
 console.log(10 < 5);            // false
 console.log(1 < 7);             // true
@@ -135,10 +135,10 @@ console.log(5 === 6);           // false
 console.log(5 !== 6);           // true
 console.log("a" !== "A");       // true
 console.log(false === false);   // true
-
-// be careful with == vs === ; == is a trap!
-// always use ===
-
+```
+**Be careful with ```==``` vs ```===``` when writing code. Loose equals ```==``` is a trap!  
+Always use deep equals / strict equals ```===```**
+```js
 console.log(5 === "5");         // false
 console.log(5 == "5");          // true
 console.log(0 === false);       // false
