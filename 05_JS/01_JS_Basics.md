@@ -311,15 +311,29 @@ Let's say here that you want to add the value of ```paycheck``` to the value of 
 
 A valid way to do this is:
 ```js
-checkingAccount = checkingAccount + paycheck;
+checkingAccount = checkingAccount + paycheck;   // 8500
 ```
 Here, ```checkingAccount``` is being *reassigned* the value of ```checkingAccount + paycheck```.  
 
 Another valid way is to use the *shorthand* of ```+=```:
 ```js
-checkingAccount += paycheck;
+checkingAccount += paycheck;                    // 8500                           
 ```
 Here, ```checkingAccount``` is *also* being *reassigned* the value of ```checkingAccount + paycheck``` all in one single step using ```+=```.
+
+<br>
+
+### Minus Minus ```--``` and Plus Plus ``++``
+```js
+let sum = 1;
+sum += 1;                       // 2 
+sum -= 1;                       // 0  
+```
+When you are adding or subtracting by just 1, you can choose to use ```++``` to *increment* or ```--``` to *decrement* by 1 instead
+```js
+sum ++;                         // 2
+sum --;                         // 0
+```
 
 <br>
 
