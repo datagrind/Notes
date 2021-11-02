@@ -16,6 +16,9 @@ The latest major revision of Javascript is ES6 in 2015. This introduced major ch
 
 
 ## ```console.log```
+
+
+
 - use ```console.log();``` to print
 ```js
 "hello"                         // Prints nothing.
@@ -296,6 +299,27 @@ sandalPairs = 3;                // Gabby donates 1 pair of sandals and updates h
 console.log(sandalPairs);       // Gabby's variable is still 4
 ```
 Here, Gabby's variable did not update because ```const``` is non-reassignable and therefore is not able to be changed. 
+
+<br>
+
+### Plus Equals ```+=``` and Minus Equals ```-=```
+```js
+let checkingAccount = 3500;
+let paycheck = 5000;
+```
+Let's say here that you want to add the value of ```paycheck``` to the value of ```checkingAccount```   
+
+A valid way to do this is:
+```js
+checkingAccount = checkingAccount + paycheck;
+```
+Here, ```checkingAccount``` is being *reassigned* the value of ```checkingAccount + paycheck```.  
+
+Another valid way is to use the *shorthand* of```+=```:
+```js
+checkingAccount += paycheck;
+```
+Here,```checkingAccount```is *also* being *reassigned* the value of```checkingAccount + paycheck```all in one single step using ```+=```.
 
 <br>
 
