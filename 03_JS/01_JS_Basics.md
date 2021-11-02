@@ -315,11 +315,11 @@ checkingAccount = checkingAccount + paycheck;
 ```
 Here, ```checkingAccount``` is being *reassigned* the value of ```checkingAccount + paycheck```.  
 
-Another valid way is to use the *shorthand* of```+=```:
+Another valid way is to use the *shorthand* of ```+=```:
 ```js
 checkingAccount += paycheck;
 ```
-Here,```checkingAccount```is *also* being *reassigned* the value of```checkingAccount + paycheck```all in one single step using ```+=```.
+Here, ```checkingAccount``` is *also* being *reassigned* the value of ```checkingAccount + paycheck``` all in one single step using ```+=```.
 
 <br>
 
