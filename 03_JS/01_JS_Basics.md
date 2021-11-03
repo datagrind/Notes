@@ -280,7 +280,7 @@ Using ```var``` will result in a variable that is function-scoped or globally-sc
  var varIsScary = "should I really be using var?"
  ```
 
-If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/08_Scope_Hoisting_Arrow_Functions.md)
+If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/11_Scope_Hoisting.md)
 
 #### Let
 Using ```let``` will result in a block-scoped variable with block-scoped behavior.
