@@ -8,8 +8,8 @@ What are Strings?
 Examples:
 'potato';
 "New York";
-"azablan@gmail.com";
-"Follow the yellow brick road, please!";
+"amanda@gmail.com";
+"Follow the yellow brick road!";
 "365 days a year";
 "";
 " ";
