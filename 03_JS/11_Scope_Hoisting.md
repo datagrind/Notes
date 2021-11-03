@@ -1,4 +1,4 @@
-## Scope, Hoisting, and Arrow Functions
+## Scope and Hoisting
 
 ### Scope 
 - The scope of a program in JS is the set of variables that are accessible at a given location in that program
