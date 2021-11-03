@@ -1,4 +1,4 @@
-# Node and VSCode Terminal
+# VSCode Terminal (WSL)
 ## Terminal
 ### List files in the current directory
 ```
