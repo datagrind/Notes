@@ -1,4 +1,4 @@
-# Strings, Indexing, and Functions
+# Strings and Indexing
 ## Strings
 What are Strings?
   - strings represent literal text
