@@ -3,6 +3,7 @@
 What are Strings?
   - strings represent literal text
   - a string is a sequence of characters surrounded by quotation marks " " or ' '
+  - strings are technically [arrays](../03_JS/09_Arrays.md) of characters arranged in a human-meaningful way: this is why strings can be [indexed](#indexing)
 
 ```js
 Examples:
@@ -51,7 +52,7 @@ console.log("".length);             // 0
 
 <br>
 
-### Indexing a String
+## Indexing
 - Indexes start at 0.
 - The index will always be 1 less than the ```.length```
 ```js
@@ -115,7 +116,7 @@ console.log("door hinge".indexOf("hint"));  // -1
 
 <br>
 
-### Concatenating Strings
+## Concatenating Strings
 - Concatenation is joining two strings together
 ```js
 console.log("hello" + "world");             // 'helloworld'
@@ -124,4 +125,13 @@ console.log("goodbye" + " " + "moon");      // 'goodbye moon'
 let str1 = "hello_"
 let str2 = "world"
 console.log((str1 + str2).indexOf("worl"))  // 6
+```
+<br>
+
+## ```.trim()```
+An inbuilt string function, ```.trim()``` trims the whitespace from a string variable and returns a **new string**
+```js
+let message = " What a beautiful day! "
+console.log(message);                       // " What a beautiful day! "
+message.trim();                             // "What a beautiful day!"
 ```
