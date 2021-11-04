@@ -329,11 +329,31 @@ let sum = 1;
 sum += 1;                       // 2 
 sum -= 1;                       // 0  
 ```
-When you are adding or subtracting by just 1, you can choose to use ```++``` to *increment* or ```--``` to *decrement* by 1 instead
+When you are adding or subtracting by just 1, you can choose to use ```++``` to *increment* or ```--``` to *decrement* by 1 instead.
+
+There are **two** ways to do this, with important differences:
 ```js
-sum ++;                         // 2
-sum --;                         // 0
+sum ++                          // Return the value, THEN increment value
+++ sum                          // Increment the value, THEN return the value
 ```
+```js
+console.log(sum);               // 1
+console.log(++ sum);            // 2 
+```
+The value of ```sum``` will be ```2``` in console if you call ```counter```, but ```sum++``` spits out ```1``` in a ```console.log();``` because it ***RETURNS THE VALUE*** first ***BEFORE*** incrementing
+```js
+console.log(sum);               // 1
+console.log(sum ++);            // 1 
+```
+The value of ```sum``` will be ```2``` when using ```console.log();``` because it ***INCREMENTS THE VALUE*** first and ***THEN*** returns the value   
+
+The same is true for ```--```
+```js
+console.log(sum);               // 1
+console.log(sum --);            // 1  
+console.log(-- sum);            // 0
+```
+
 
 <br>
 

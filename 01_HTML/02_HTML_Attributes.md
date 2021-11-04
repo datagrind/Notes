@@ -1,6 +1,8 @@
 
 
 # HTML Attributes
+ 
+
 
 ```html
 <p id="welcome" class="placeholder" hidden>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
@@ -29,7 +31,7 @@ Some attributes will not have values, as they have their "true" state implied by
 
 ## Other Attributes
 
-Most attributes in HTML follow the following format. here, the attribute we are using as an example is ```id```.
+Most attributes in HTML follow the following format. Here, the attribute we are using as an example is ```id```.
 
 ```html
 <p id="welcome">Lorem ipsum kitten doughnut french press suspenders lolcat</p>
@@ -42,5 +44,4 @@ The value of ```id``` must:
 * use ```-``` hyphen or ```_``` underscore to connext multiple words in the string
 
 <br>
-
 
