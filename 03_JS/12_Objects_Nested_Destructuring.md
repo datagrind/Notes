@@ -11,18 +11,25 @@ An object is a data structure that stores other data. Objects are used to store 
 **[Nested Destructuring](#nested-destructuring)** refers to getting at the data of an object nested inside another object
 <br>
 
-## Primitive vs. Reference Data Types
+## Value vs. Reference Data Types
 ### Reference Data Type:
 - Object
    - An Array is also a type of object
 
-### Primitive Data Types:
-- Primitive Data Types are Immutable
+### Value (primitive) Data Types:
+- Primitive / Value Data Types are Immutable
 - Boolean - True and False
 - Null - represents the intentional abscence of a value
 - Undefined - default return value for many things in JS
 - Number - integers / numbers
 - String - ordered collection of characters ('apple')
+
+```js
+/// Value types
+let acorns = 25
+let apples = acorns
+```
+
 
 <br>
 
