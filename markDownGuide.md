@@ -1,13 +1,11 @@
 A Short Guide to Markdown
 ======
 
-Mark Down Basics
-------
 * What is Markdown?
-* Plain text format
-* easy to read, write, learn
-* easy to parse/convert to other formats
-* lots of supports and extensions
+  * Plain text format
+  * easy to read, write, learn
+  * easy to parse/convert to other formats
+  * lots of supports and extensions
 
 Using Markdown Tools
 -------    
