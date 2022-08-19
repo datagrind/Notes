@@ -5,10 +5,8 @@ A Short Guide to Markdown
   * Plain text format
   * easy to read, write, learn
   * easy to parse/convert to other formats
-  * lots of supports and extensions
-
-Using Markdown Tools
--------    
+  * lots of supports and extensions  
+  
 Basic Span Elements
 -------
 * single underscore both sides _italics_
